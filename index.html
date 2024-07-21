@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!---------------- side bar ----------------->
+    <nav class="parent d-flex">
+        <div class="child-1">
+            <ul>
+                <li style="padding-top: 25px; opacity: 1;"><a >Now playing</a></li>
+                <li style="padding-top: 25px; opacity: 1;"><a >Popular</a></li>
+                <li style="padding-top: 25px; opacity: 1;"><a >Top Rated</a></li>
+                <li style="padding-top: 25px; opacity: 1;"><a >Trending</a></li>
+                <li style="padding-top: 25px; opacity: 1;"><a >Upcoming</a></li>
+                <li style="padding-top: 25px; opacity: 1;"><a section="#contact">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="child-2 position-relative d-flex justify-content-center bg-white">
+            <div class="mt-5 ms-4 ">
+                <img src="exam1.png" class="w-50">
+            </div>
+            <div class="tab-i  ">
+                <i class="fa-solid open-close-icon fa-align-justify fa-2x tab "></i>
+            </div>
+            <div class="icon-2">
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+             
+        </div>
+
+
+
+    </nav>
+    <!----------------- data ------------------>    
+    <section  class="container py-5">
+        <input id="search" type="search" placeholder="Search" class="form-control w-50 mx-auto bg-transparent rounded-pill text-white shadow-none border-white px-3">
+            <div class="row g-4 mt-3 text-white" id="row">
+
+            </div>
+    </section>
+        <!---------------- contact ----------------------> 
+    <section id="contact" class="container text-white py-5">
+        <h2>Contact US</h2>
+        <form>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <input type="text" required id="name" maxlength="37" class="form-control mt-4" placeholder="Enter Your Name">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" required id="email"  class="form-control mt-4" placeholder="Enter Your Email">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="number"required id="phone" class="form-control mt-4" placeholder="Enter Your Phone">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="number"required id="age"  class="form-control mt-4" placeholder="Enter Your Age">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <input type="password" required id="password" class="form-control mt-4" placeholder="Enter Your Password">
+                    <span Class="error" class="animate__animated"></span>
+                    <span class="showPass"><i data-show="show" class="fa-solid fa-eye-slash"></i></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="password"required id="repassword" class="form-control mt-4" placeholder="ReEnter Password">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-12  mt-4">
+                    <button type="submit" class="form-btn rounded-2 mb-3 animate__animated">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+   
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js" ></script>
+</body>
+</html>
